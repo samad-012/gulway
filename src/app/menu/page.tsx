@@ -61,7 +61,7 @@ export default function MenuPage() {
                     </span>
                   </div>
                   <span className="text-zinc-500 italic text-sm font-light">
-                    {item.price} <span className="text-[10px] not-italic ml-1">AED</span>
+                    {item.price} <span className="text-[10px] not-italic ml-1"></span>
                   </span>
                 </motion.div>
               ))}

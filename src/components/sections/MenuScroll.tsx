@@ -7,7 +7,7 @@ const menuContent = [
   // --- BREAKFAST SECTION ---
   {
     title: "Avocado Toast with Poached Egg",
-    description: "A signature start featuring creamy avocado and a perfectly runny yolk. (60 AED)",
+    description: "A signature start featuring creamy avocado and a perfectly runny yolk.",
     content: (
       <div className="h-full w-full flex items-center justify-center bg-zinc-900">
         <Image
@@ -22,7 +22,7 @@ const menuContent = [
   },
   {
     title: "Aussie Egg Benedict",
-    description: "Classic favorite with a premium twist, served with high-quality protein. (44 AED)",
+    description: "Classic favorite with a premium twist, served with high-quality protein.",
     content: (
       <div className="h-full w-full flex items-center justify-center bg-zinc-900">
         <Image
@@ -37,7 +37,7 @@ const menuContent = [
   },
   {
     title: "French Toast",
-    description: "Served with caramelized pear and fresh berries for a sweet, refined morning. (61 AED)",
+    description: "Served with caramelized pear and fresh berries for a sweet, refined morning.",
     content: (
       <div className="h-full w-full flex items-center justify-center bg-zinc-900">
         <Image
@@ -53,7 +53,7 @@ const menuContent = [
   // --- MAIN COURSE SECTION ---
   {
     title: "Braised Beef Cheek Duo",
-    description: "48-hour slow-cooked beef cheek, a cornerstone of our Main Course selection. (50 AED)",
+    description: "48-hour slow-cooked beef cheek, a cornerstone of our Main Course selection.",
     content: (
       <div className="h-full w-full flex items-center justify-center bg-zinc-900">
         <Image
@@ -68,7 +68,7 @@ const menuContent = [
   },
   {
     title: "Salmon Verde",
-    description: "Fresh salmon prepared with vibrant green herbs and signature seasoning. (78 AED)",
+    description: "Fresh salmon prepared with vibrant green herbs and signature seasoning. ",
     content: (
       <div className="h-full w-full flex items-center justify-center bg-zinc-900">
         <Image
@@ -83,7 +83,7 @@ const menuContent = [
   },
   {
     title: "Beef Stroganoff",
-    description: "Classical beef stroganoff, a hearty and luxurious comfort dish. (47 AED)",
+    description: "Classical beef stroganoff, a hearty and luxurious comfort dish.",
     content: (
       <div className="h-full w-full flex items-center justify-center bg-zinc-900">
         <Image
