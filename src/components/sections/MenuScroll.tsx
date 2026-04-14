@@ -4,17 +4,16 @@ import { StickyScroll } from "@/components/ui/sticky-scroll-reveal";
 import Image from "next/image";
 
 const menuContent = [
-  // --- BREAKFAST SECTION ---
   {
-    title: "Avocado Toast with Poached Egg",
-    description: "A signature start featuring creamy avocado and a perfectly runny yolk.",
+    title: "Avocado Toast",
+    description: "A signature start featuring creamy avocado and a perfectly runny yolk. 100% Gluten-free.",
     content: (
-      <div className="h-full w-full flex items-center justify-center bg-zinc-900">
+      <div className="h-full w-full flex items-center justify-center bg-[#F5F1E1]">
         <Image
           src="/Gluway Menu photoshoot/avocado toast.png"
           width={600}
           height={600}
-          className="h-full w-full object-cover"
+          className="h-full w-full object-cover rounded-2xl shadow-2xl"
           alt="Avocado Toast"
         />
       </div>
@@ -22,45 +21,29 @@ const menuContent = [
   },
   {
     title: "Aussie Egg Benedict",
-    description: "Classic favorite with a premium twist, served with high-quality protein.",
+    description: "Classic favorite with a premium twist, served with high-quality protein and signature hollandaise.",
     content: (
-      <div className="h-full w-full flex items-center justify-center bg-zinc-900">
+      <div className="h-full w-full flex items-center justify-center bg-[#F5F1E1]">
         <Image
           src="/Gluway Menu photoshoot/aussie benedict.png"
           width={600}
           height={600}
-          className="h-full w-full object-cover"
+          className="h-full w-full object-cover rounded-2xl shadow-2xl"
           alt="Aussie Benedict"
         />
       </div>
     ),
   },
   {
-    title: "French Toast",
-    description: "Served with caramelized pear and fresh berries for a sweet, refined morning.",
-    content: (
-      <div className="h-full w-full flex items-center justify-center bg-zinc-900">
-        <Image
-          src="/Gluway Menu photoshoot/french toast with caralmlized pear and berries .png"
-          width={600}
-          height={600}
-          className="h-full w-full object-cover"
-          alt="French Toast"
-        />
-      </div>
-    ),
-  },
-  // --- MAIN COURSE SECTION ---
-  {
     title: "Braised Beef Cheek Duo",
-    description: "48-hour slow-cooked beef cheek, a cornerstone of our Main Course selection.",
+    description: "48-hour slow-cooked Angus beef cheek, a cornerstone of our Main Course selection.",
     content: (
-      <div className="h-full w-full flex items-center justify-center bg-zinc-900">
+      <div className="h-full w-full flex items-center justify-center bg-[#F5F1E1]">
         <Image
           src="/Gluway Menu photoshoot/Braised Angus Beef Cheek.png"
           width={600}
           height={600}
-          className="h-full w-full object-cover"
+          className="h-full w-full object-cover rounded-2xl shadow-2xl"
           alt="Braised Beef Cheek"
         />
       </div>
@@ -68,30 +51,15 @@ const menuContent = [
   },
   {
     title: "Salmon Verde",
-    description: "Fresh salmon prepared with vibrant green herbs and signature seasoning. ",
+    description: "Fresh salmon prepared with vibrant green herbs. Taste the glow of Mediterranean freshness.",
     content: (
-      <div className="h-full w-full flex items-center justify-center bg-zinc-900">
+      <div className="h-full w-full flex items-center justify-center bg-[#F5F1E1]">
         <Image
           src="/Gluway Menu photoshoot/salmon verthe.png"
           width={600}
           height={600}
-          className="h-full w-full object-cover"
+          className="h-full w-full object-cover rounded-2xl shadow-2xl"
           alt="Salmon Verde"
-        />
-      </div>
-    ),
-  },
-  {
-    title: "Beef Stroganoff",
-    description: "Classical beef stroganoff, a hearty and luxurious comfort dish.",
-    content: (
-      <div className="h-full w-full flex items-center justify-center bg-zinc-900">
-        <Image
-          src="/Gluway Menu photoshoot/beef stragonoff.png"
-          width={600}
-          height={600}
-          className="h-full w-full object-cover"
-          alt="Beef Stroganoff"
         />
       </div>
     ),
@@ -100,8 +68,8 @@ const menuContent = [
 
 export function MenuScroll() {
   return (
-    <div className="w-full">
-      <StickyScroll content={menuContent} />
+    <div className="w-full bg-[#F5F1E1]">
+      <StickyScroll content={menuContent} contentClassName="bg-[#F5F1E1]" />
     </div>
   );
 }
