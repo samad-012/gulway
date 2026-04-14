@@ -18,14 +18,6 @@ export function BrandStory() {
           and 
           <span className="text-emerald-500 italic"> wellbeing</span>.&quot;
         </motion.h2>
-        
-        <p className="text-zinc-400 text-lg leading-relaxed font-light">
-          Founded in Abu Dhabi in 2024, Gluway was born from a simple necessity: 
-          dining that nourishes the body without compromising the soul. Every 
-          ingredient is traced, every macro calculated, and every plate 
-          designed to make you feel as good as the food tastes.
-        </p>
-
         <div className="mt-16 flex justify-center gap-12 text-[10px] tracking-[0.4em] text-zinc-600 uppercase">
           <span>Ethical Sourcing</span>
           <span>Celiac Safe</span>
